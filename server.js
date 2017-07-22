@@ -57,9 +57,9 @@ app.get('/bad',(req,res)=>{
     });
 });
 
-app.get('/Pojects',(req,res)=>{
-    res.render('pojects.hbs',{
-        pageTitle:'Porfolio',
+app.get('/projects',(req,res)=>{
+    res.render('projects.hbs',{
+        pageTitle:'Projects',
         welcomeText:'Poject Page'
 
     })
